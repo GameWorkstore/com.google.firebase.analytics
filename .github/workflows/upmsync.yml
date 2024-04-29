@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       base: https://dl.google.com/games/registry/unity/com.google.firebase.analytics/com.google.firebase.analytics
-      version: 11.8.1
+      version: 11.9.0
     steps:
       - uses: actions/checkout@v2
       - name: Config
